@@ -1,4 +1,18 @@
-@import-normalize; /* bring in normalize.css styles */
+:root {
+  --font-color: #212121;
+  --button: #d5d5d5;
+  --good: #408940;
+  --neutral: #c2aa22;
+  --bad: #972929;
+  --contrast-color: #e8e8e8;
+  --table: #f0f0f0;
+  --shadow: 0 0 6px 0 rgba(0, 0, 0, 0.5);
+  --transition-function: 300ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+* {
+  box-sizing: border-box;
+}
 
 body {
   margin: 0;
@@ -12,4 +26,9 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
 }
